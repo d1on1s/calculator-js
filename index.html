@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JavaScript Calculator</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <input class="form-control text-right" type="text" id="screen" readonly>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="btn-group">
+        <button type="button" class="btn btn-lg btn-secondary" id="c">C</button>
+        <button type="button" class="btn btn-lg btn-secondary" id="d0">0</button>      
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="btn-group">
+        <button type="button" class="btn btn-lg btn-secondary" id="d1">1</button>
+        <button type="button" class="btn btn-lg btn-secondary" id="d2">2</button>
+        <button type="button" class="btn btn-lg btn-secondary" id="d3">3</button>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="btn-group">
+        <button type="button" class="btn btn-lg btn-secondary" id="d4">4</button>
+        <button type="button" class="btn btn-lg btn-secondary" id="d5">5</button>
+        <button type="button" class="btn btn-lg btn-secondary" id="d6">6</button>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="btn-group">
+        <button type="button" class="btn btn-lg btn-secondary" id="d7">7</button>
+        <button type="button" class="btn btn-lg btn-secondary" id="d8">8</button>
+        <button type="button" class="btn btn-lg btn-secondary" id="d9">9</button>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="btn-group">        
+          <button type="button" class="btn btn-lg btn-secondary" id="o1">+</button>
+          <button type="button" class="btn btn-lg btn-secondary" id="o2">-</button>
+          <button type="button" class="btn btn-lg btn-secondary" id="o3">x</button>          
+        </div>
+    </div>
+    <div class="row justify-content-center bottom">
+      <div class="btn-group">           
+        <button type="button" class="btn btn-lg btn-secondary" id="o4">&#247;</button>   
+        <button type="button" class="btn btn-lg btn-secondary" id="o5">=</button>   
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="js/calculator.js"></script>
+</body>
+</html>
